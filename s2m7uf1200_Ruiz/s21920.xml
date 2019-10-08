@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <s21920>
+    <alumnat>
+      <img href="file://s21920/alcala.jpg"/>
+      <nom>Ariadna</nom>
+      <cognom>Alcalá </cognom>
+      <cognom1>Martínez</cognom1>
+      <mail>aalcala.crn@artsgrafiques.org</mail>
+    </alumnat>
+    <alumnat>
+      <img href="file://s21920/calvo.jpg"/>
+      <nom>Laura</nom>
+      <cognom>Calvo</cognom>
+      <cognom1>Ascaso</cognom1>
+      <mail>lcalvo.crn@artsgrafiques.org</mail>
+    </alumnat>
+    <alumnat>
+      <img href="file://s21920/diaz.jpg"/>
+      <nom>Sandra</nom>
+      <cognom>Díaz</cognom>
+      <cognom1>Belmonte</cognom1>
+      <mail>sbelmonte.crn@artsgrafiques.org</mail>
+    </alumnat>
+    <alumnat>
+      <img href="file://s21920/gallego.jpg"/>
+      <nom>Aarón</nom>
+      <cognom>Gallego</cognom>
+      <cognom1>Herrador</cognom1>
+      <mail>agallego.crn@artsgrafiques.org</mail>
+    </alumnat>
+    <alumnat>
+      <img href="file://s21920/garcia.jpg"/>
+      <nom>Aleix</nom>
+      <cognom>García</cognom>
+      <cognom1>Uréndez</cognom1>
+      <mail>agarciau.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/gimenez.jpg"/>
+      <nom>Carolina</nom>
+      <cognom>Giménez</cognom>
+      <cognom1>Carbonell</cognom1>
+      <mail>cgimenez.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/gomez.jpg"/>
+      <nom>Yeray</nom>
+      <cognom>Gómez</cognom>
+      <cognom1>Bono</cognom1>
+      <mail>ygomez.crn@artsgrafiques.org</mail>
+    </alumnat>
+    <alumnat>
+      <img href="file://s21920/jimenez.jpg"/>
+      <nom>Luís</nom>
+      <cognom>Jiménez</cognom>
+      <cognom1>Navarro</cognom1>
+      <mail>ljimenez.crn@artsgrafiques.org</mail>
+    </alumnat>
+    <alumnat>
+      <img href="file://s21920/laura.jpg"/>
+      <nom>Paola Andrea</nom>
+      <cognom>Laura</cognom>
+      <cognom1>Valda</cognom1>
+      <mail>plaura.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/melguizo.jpg"/>
+      <nom>Víctor</nom>
+      <cognom>Melguizo</cognom>
+      <cognom1>Cadenas</cognom1>
+      <mail>vmelguizoc.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/palomo.jpg"/>
+      <nom>Jordi</nom>
+      <cognom>Palomo</cognom>
+      <cognom1>Dalmau</cognom1>
+      <mail>jpalomo.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/pizarro.jpg"/>
+      <nom>Irene</nom>
+      <cognom>Pizarro</cognom>
+      <cognom1>Mira</cognom1>
+      <mail>imira.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/rejbaoui.jpg"/>
+      <nom>Hajar</nom>
+      <cognom>Regbaoui</cognom>
+      <cognom1>Regbaoui</cognom1>
+      <mail>hRegbaoui.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/rico.jpg"/>
+      <nom>Alex</nom>
+      <cognom>Rico</cognom>
+      <cognom1>Rodríguez</cognom1>
+      <mail>arico.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/rodriguez.jpg"/>
+      <nom>Carlos</nom>
+      <cognom>Rodríguez</cognom>
+      <cognom1>Fernández</cognom1>
+      <mail>crodriguezf.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/ruiz.jpg"/>
+      <nom>Jenifer</nom>
+      <cognom>Ruiz</cognom>
+      <cognom1>Franco</cognom1>
+      <mail>jruizf.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/saldana.jpg"/>
+      <nom>Aitor</nom>
+      <cognom>Saldaña</cognom>
+      <cognom1>Chaparra</cognom1>
+      <mail>asaldana.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/saloui.jpg"/>
+      <nom>Sheima</nom>
+      <cognom>Saloui</cognom>
+      <cognom1>Rubio</cognom1>
+      <mail>ssaloui.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/sanchez.jpg"/>
+      <nom>Salvador Albert</nom>
+      <cognom>Sánchez</cognom>
+      <cognom1>Rodríguez</cognom1>
+      <mail>ssanchez.crn@artsgrafiques.org</mail>
+    </alumnat>
+
+    <alumnat>
+      <img href="file://s21920/silva.jpg"/>
+      <nom>Lydia</nom>
+      <cognom>Silva</cognom>
+      <cognom1>Sánchez</cognom1>
+      <mail>lsilva.crn@artsgrafiques.org</mail>
+    </alumnat>
+</s21920>
