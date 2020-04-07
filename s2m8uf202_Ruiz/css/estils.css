@@ -1,0 +1,165 @@
+body {
+background: #fff;
+}
+
+.barra1 {
+  background: #000;
+  padding: 0;
+  height: 1249px;
+}
+
+.barra1 li{
+  font-size: 14px;
+  font-family: 'Spartan', sans-serif;
+  color: #fff;
+  line-height: 65px;
+  font-weight: bold;
+}
+
+#brand{
+  font-size: 24px;
+}
+
+/* apaño */
+
+#portada {
+  background: #fff;
+  width: 960px;
+  height: 306px;
+  margin-top: 65px;
+}
+
+.chocsup, .chocinf {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.chocsup:hover  {
+  transition: .5s;
+  filter: opacity(50%);
+}
+
+.chocinf:hover  {
+  transition: .5s;
+  filter: opacity(50%);
+}
+
+.title_sup, .title_inf {
+  height: 60px;
+  background-color: #fff;
+}
+
+.title_sup li, .title_inf li {
+  font-size: 18px;
+  font-family: 'Spartan', sans-serif;
+  color: #000;
+  background: ;
+  height: 60px;
+  padding: 0;
+}
+
+a:visited{
+  color: #000;
+}
+
+#title_9 {
+  line-height: 25px;
+  height: 60px;
+}
+
+
+.peu {
+  height: 30px;
+  background: #fff;
+}
+
+.peu li {
+  font-size: 12px;
+  font-family: 'Spartan', sans-serif;
+  color: #000;
+  line-height: 35px;
+}
+
+.logos {
+  height: 60px;
+  display:block;
+  line-height: 20px;
+  background: #000;
+}
+
+#face, #linkedin, #insta {
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  margin-top: 15px;
+
+}
+
+/* pág 2 */
+
+.fondo {
+  font-size: 14px;
+  font-family: 'Spartan', sans-serif;
+  line-height: 65px;
+  background-color: #000;
+  color: #fff;
+
+}
+
+.presentacion {
+  margin-top: 60px;
+  height: 500px;
+  background: #000;
+}
+
+.presentacioninterior {
+  margin-top: 60px;
+  height: 100px;
+  background: black;
+}
+
+.cacao:hover {
+  filter: brightness(110%);
+}
+
+.cacao {
+  margin: 30px 0 30px 0;
+}
+
+#cacaoimg {
+  height: 381px;
+}
+
+#cacaoimg:hover {
+  filter: brightness(110%);
+}
+
+#title_1 {
+  font-size: 24px;
+  font-family: 'Spartan', sans-serif;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.texto {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.brand:visited {
+  color: #fff;
+}
+
+.pastilla {
+  height: 30px;
+  background: #000;
+}
+
+.frase {
+  background-color: #fff;
+  height: 60px;
+
+}
