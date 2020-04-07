@@ -1,0 +1,101 @@
+.heart {
+  position: relative;
+  top: 300px;
+  left: 500px;
+  animation: bategar 2s ease infinite;
+}
+
+  /* -webkit-animation-name: heartBeat;
+  animation-name: heartBeat;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
+
+
+
+.love1 {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  transform: rotate(-45deg);
+  transform-origin: left bottom;
+  background: red;
+  border-radius: 50px 50px 0 0;
+}
+
+
+.love2 {
+  position: absolute;
+  left: -100px;
+  width: 100px;
+  height: 150px;
+  transform: rotate(45deg);
+  transform-origin: right bottom;
+  background: red;
+  border-radius: 50px 50px 0 0;
+
+}
+
+@keyframes bategar {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  15% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  30% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  45% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  60% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  75% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+
+
+/* .love {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  background: red;
+  position: relative;
+  top: 10rem;
+  left: 10rem;
+  animation: beating 2s ease infinite;
+}
+
+@keyframes beating {
+  0% {
+  	transform: rotate(45deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(2);
+  }
+  100% {
+  	transform: rotate(45deg) scale(1);
+  }
+} */ */
