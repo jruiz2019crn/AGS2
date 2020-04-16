@@ -1,0 +1,111 @@
+
+#barra {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 50px;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  height: 50px;
+  width: 1000px;
+  margin-top: 0px;
+  background-image: url(img/logo.png);
+  background-repeat: no-repeat;
+}
+
+li {
+  float: left;
+  margin: 0 10px;
+  letter-spacing:	4px;
+}
+
+h1, h2, h3, p {
+  letter-spacing:	2px;
+}
+
+.docu h2 {
+  letter-spacing:	1px;
+}
+
+a:link  {
+  color: #CCC;
+  text-decoration: none;
+}
+
+a:active {
+  color: #CCC;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#FFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #CCC;
+  text-decoration: none;
+}
+
+.docu {
+  width: 175px;
+  margin: 10px;
+  display: inline-block;
+}
+
+img {
+  border-radius: 5px;
+}
+
+img:hover {
+  filter: grayscale(100%);
+}
+
+.docu2 {
+  width: 175px;
+  margin: 10px;
+  display: inline-block;
+  -webkit-filter:grayscale(100%);
+}
+
+.docu2 img:hover {
+  filter: opacity(50%);
+}
+
+.peli {
+  width: 175px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.peli2 {
+  -webkit-filter:grayscale(100%);
+  width: 175px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.barra {
+  position: fixed;
+  width: 100%;
+}
+
+#pelicules img:hover {
+  filter: invert();
+}
+
+#series img:hover {
+  filter: invert();
+}
+
+#barra_inf {
+  background: #000;
+  height: 50px;
+}
+
+#barra_inf img {
+  margin: 10px 0 0 10px;
+}
