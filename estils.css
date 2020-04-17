@@ -1,13 +1,13 @@
 
 body {
-  background: linear-gradient(50deg, #85B79D 50%, #FF8360 50%);
+  background: linear-gradient(120deg, #FF8360 50%,  #85B79D 50%);
   height: auto;
 }
 
 .title{
   background: #832161;
   width: 900px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 h1 {
@@ -21,27 +21,24 @@ ul {
   height: auto;
   background-color: ;
   overflow: hidden;
-  margin: 0px;
   padding: 0;
   margin: 0 auto;
 }
 
 li {
-  background-color: #832161;
   display: block;
-  margin: 40px;
-  margin-top: 50px;
+  margin: 90px 50px 10px 50px;
   width: 200px;
   height: 200px;
   border-radius: 100px;
   float: left;
   box-shadow: black 5px 5px 10px;
   background-size: 100%;
+  font-weight: bold;
 }
 
 a {
   margin-top: -40px;
-  height: 200px;
   display: block;
   font-size: 20px;
   text-align: center;
@@ -88,6 +85,12 @@ background-size: 110%;
 background-image: url(img/a08.png);
 background-size: 110%;
 }
+
+#b08 {
+background-image: url(img/b08.png);
+background-size: 110%;
+}
+
 #a09 {
 background-image: url(img/a09.png);
 background-size: 110%;
@@ -98,9 +101,65 @@ background-size: 110%;
 }
 #a11 {
 background-image: url(img/a11.png);
-background-size: 110%;
+background-size: 100%;
+background-repeat: no-repeat;
 }
 #a12 {
 background-image: url(img/a12.png);
+background-size: 100%;
+}
+
+/* M7 */
+
+#c00 {
+background-image: url(img/c00.png);
+background-size: 100%;
+}
+
+#c01 {
+background-image: url(img/c01.png);
+background-size: 100%;
+}
+#c02 {
+background-image: url(img/c02.png);
+background-size: 100%;
+}
+#c03 {
+background-image: url(img/c03.png);
+background-size: 100%;
+}
+
+#c04 {
+background-image: url(img/c04.png);
+background-size: 100%;
+}
+#c05 {
+background-image: url(img/c05.png);
+background-size: 100%;
+}
+#c06 {
+background-image: url(img/c06.png);
 background-size: 110%;
+}
+#c07 {
+background-image: url(img/c07.png);
+background-size: 110%;
+}
+#c08 {
+background-image: url(img/c08.png);
+background-size: 110%;
+}
+
+#c09 {
+background-image: url(img/c09.png);
+background-size: 110%;
+}
+#c10 {
+background-image: url(img/c10.png);
+background-size: 110%;
+}
+#c11 {
+background-image: url(img/c11.png);
+background-size: 110%;
+background-repeat: no-repeat;
 }
