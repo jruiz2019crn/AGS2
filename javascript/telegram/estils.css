@@ -1,0 +1,367 @@
+#chat {
+  width: 955px;
+  min-height: 150px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #800080;
+}
+
+.bocata3 {
+  width: 60%;
+  min-height: 60px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px black;
+  float: left;
+  margin-bottom: 20px;
+  background-color: #FFF;
+  opacity: 0.6;
+  }
+
+.bocata3:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: transparent solid 0.5em;
+  border-right: transparent solid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left:  #FFF solid 0.5em;
+  position: relative;
+  top: -8px;
+  left: 20px;
+}
+
+.bocata4 {
+  width: 60%;
+  min-height: 60px;
+  border-radius: 15px;
+  box-shadow: -1px 2px 3px black;
+  float: right;
+  background-color: #FFF;
+  opacity: 0.35;
+  }
+
+.bocata4:after {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top:  transparent solid 0.5em;
+  border-right:  trasnparentsolid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: #FFF solid 0.5em;
+  position: relative;
+  bottom: -52px;
+  left: 95%;
+
+}
+
+.contenidor {
+  width: 75%;
+  min-height: 100px;
+}
+
+.tema {
+  overflow: hidden;>
+  width: 18%;
+  height: 220px;
+  border-radius: 20px;
+  margin: 10px;
+  float: left;
+}
+
+.bocata1 {
+  width: 200px;
+  min-height: 60px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px black;
+  margin: 20px;
+  margin-left: 10px;
+}
+
+.bocata1:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: transparent solid 0.5em;
+  border-right: transparent solid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left:  #FFF solid 0.5em;
+  position: relative;
+  top: -8px;
+  left: 20px;
+}
+
+.bocata2 {
+  width: 200px;
+  min-height: 60px;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: -1px 2px 3px black;
+  float: right;
+  margin-right: 10px;
+}
+
+.bocata2:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top:  transparent solid 0.5em;
+  border-right:  trasnparentsolid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: FFF solid 0.5em;
+  position: relative;
+  top: 50px;
+  left: 170px;
+}
+
+.bocata1.esquerra.default {
+  transform: scale(1,1);
+  background-color: #FFF;
+  opacity: 0.6;
+  }
+
+.bocata2.dreta.default {
+  transform: scale(1,1);
+  background-color: #FFF;
+  opacity: 0.35;
+   }
+
+.bocata1.esquerra.mono {
+  transform: scale(1,1);
+  background-color: #FFF;
+  opacity: 0.75;
+  }
+
+.bocata2.dreta.default:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top:  transparent solid 0.5em;
+  border-right:  trasnparentsolid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: #FFF solid 0.5em;
+  position: relative;
+  top: 52px;
+  left: 170px;
+}
+
+.bocata1.esquerra.mono:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: transparent solid 0.5em;
+  border-right: transparent solid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: #FFF solid 0.5em;
+  position: relative;
+  top: -8px;
+  left: 20px;
+}
+
+.bocata2.dreta.mono {
+  transform: scale(1,1);
+  background-color: #FFF;
+  opacity: 0.35;
+  }
+
+.bocata2.dreta.mono:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top:  transparent solid 0.5em;
+  border-right:  trasnparentsolid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: #FFF solid 0.5em;
+  position: relative;
+  top: 52px;
+  left: 170px;
+}
+
+.bocata1.esquerra.dark{
+  transform: scale(1,1);
+  background-color: #FFF;
+  opacity: 0.6;
+  }
+
+.bocata1.esquerra.dark:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: transparent solid 0.5em;
+  border-right: transparent solid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: #FFF solid 0.5em;
+  position: relative;
+  top: -8px;
+  left: 20px;
+}
+
+.bocata2.dreta.dark {
+  transform: scale(1,1);
+  background-color: #FFF;
+  opacity: 0.35;
+  }
+
+.bocata2.dreta.dark:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top:  transparent solid 0.5em;
+  border-right:  trasnparentsolid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: #FFF solid 0.5em;
+  position: relative;
+  top: 52px;
+  left: 170px;
+}
+
+.bocata1.esquerra.artic {
+  transform: scale(1,1);
+  background-color: #FFF;
+  opacity: 0.6;
+  }
+
+.bocata1.esquerra.artic:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: transparent solid 0.5em;
+  border-right: transparent solid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: #FFF solid 0.5em;
+  position: relative;
+  top: -8px;
+  left: 20px;
+}
+
+.bocata2.dreta.artic {
+  transform: scale(1,1);
+  background-color: #FFF;
+  opacity: 0.35;
+  }
+
+.bocata2.dreta.artic:before {
+  content:"";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top:  transparent solid 0.5em;
+  border-right:  trasnparentsolid 0.5em;
+  border-bottom: transparent solid 0.5em;
+  border-left: #FFF solid 0.5em;
+  position: relative;
+  top: 52px;
+  left: 170px;
+  }
+
+.boton {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid #FFF;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+  opacity: 80%;
+}
+
+.boton:after {
+  content:"";
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+#default {
+  background-color: #800080;
+}
+
+#mono {
+  background-color: #2952a3;
+}
+
+#dark {
+  background-color: #003300;
+}
+
+#artic {
+  background-color: #669999;
+}
+
+.slider{
+  width: 230px;
+  height: 4rem;
+  overflow-y: scroll;
+  margin-left: 260px;
+}
+
+.slider::-webkit-scrollbar{
+  display:none;
+}
+
+#barra {
+  width: 500px;
+  height: 4rem;
+  position:relative;
+}
+
+.bola {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px grey;
+  margin-left: 20px;
+  display: inline-block;
+  }
+
+#barra2 {
+  width: 52%;
+  height: 3rem;
+  position:relative;
+  top: 10px;
+  left: 235px;
+}
+
+.bola2 {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px grey;
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
+  left: 255px;
+  }
+
+#barra3 {
+  width: 52%;
+  height: 3rem;
+  position:relative;
+  top: 10px;
+  left: 350px;
+}
+
+.bola3 {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px grey;
+  margin-left: 20px;
+  display: inline-block;
+  position: relative;
+  left: 390px;
+  }

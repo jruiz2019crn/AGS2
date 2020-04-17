@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      body {
+        font-size: 36px;
+        font-family: cursive;
+      }
+    </style>
+  </head>
+  <body>
+
+    <script type="text/javascript" language="javascript">
+      //Confirmació de dades
+      //Declaració de variables
+      //Dades que demana el mail, el que tenims en en la nostra base da dades, esto es la pregunta
+      //la variable sortir ha de ser igual al if
+      var sortir=confirm("Segur que vols tancar l'app?")
+
+      //respuestas segons la decisió
+      if (sortir==true) {
+        document.write("tancant l'app...");
+        document.body.style.backgroundColor="#aaa";
+        document.body.style.color="#FFF";
+
+      }
+      else {
+        document.write ("continua en l'app");
+        document.body.style.backgroundColor="#135";
+        document.body.style.color="#FFF";
+      }
+
+
+    </script>
+
+  </body>
+</html>

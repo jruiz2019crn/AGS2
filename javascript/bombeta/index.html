@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Banner</title>
+
+  <style>
+
+  #tot {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #bombeta {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  ul{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  li{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 10px;
+    background-color: red;
+  }
+
+
+  </style>
+</head>
+
+<body>
+  <div id="tot">
+    <img src="img/bom_apagada.png" id="bombeta"/>
+
+    <ul>
+      <li id="on">ON</li>
+      <li id="off">OFF</li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+
+
+  var imatge=document.getElementById('bombeta');
+
+  document.getElementById('on').addEventListener('click',ences);
+
+  document.getElementById('off').addEventListener('click',apagat);
+
+
+function ences(){
+  imatge.src="img/bom_encendida.jpg";
+  console.log("ences");
+
+}
+function apagat(){
+  imatge.src="img/bom_apagada.png";
+  console.log("apagat");
+}
+
+</script>
+</body>
+</html>

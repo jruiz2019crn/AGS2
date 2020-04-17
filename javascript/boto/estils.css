@@ -1,0 +1,15 @@
+#sol {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: orange;
+
+}
+
+#luna {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 30px 30px 0 purple;
+
+}

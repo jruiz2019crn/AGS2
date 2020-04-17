@@ -1,0 +1,39 @@
+<!-- agafar imatge via etiqueta, enviar arxius d'imatge
+INPUT FILE API -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>INPUT AUDIO</title>
+</head>
+
+ <!-- accept="image/*"> aceptar todo tipo de imagenes, cargar html en navegador, tria fitxer, encuentra imagen pero no la muestra
+ <img id="imatge"/> aquí es donde se cargará la imagenes
+ var contingut=document.getElementById('contingut') seleccionamos contenido;
+ var imatge=document.getElementById('imatge') donde se vuelca la imagen;
+ multiple="true permite enviar varios archivos a la vez
+-->
+
+  <input type="file" accept="audio/*" id="carrega">
+  <audio id="output" controls autoplay>
+  </audio>
+
+  <script type="text/javascript">
+    var arxiu=document.getElementById('carrega');
+
+    arxiu.addEventListener('change',carregar)
+
+    function carregar() {
+      var output = document.getElementById('output')
+        output.src=URL.createObjectURL(event.target.files[0]);
+    }
+
+  </script>
+
+<body>
+
+</body>
+</html>

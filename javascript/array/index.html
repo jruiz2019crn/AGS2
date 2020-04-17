@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>array</title>
+  </head>
+
+  <style>
+    body {
+      font-size: 24px;
+    }
+
+  .bola {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: solid 3px black;
+    margin: 10px;
+    display: inline-block;
+
+  }
+
+  </style>
+
+  <body>
+
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+
+    <h1>Ariadna</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <h1>Hajar</h1>
+
+
+    <script type="text/javascript">
+
+      var color=["red","black","green","blue","purple","navy","yellowgreen"];
+      document.body.style.backgroundColor=color[6];
+
+      var bola=document.getElementsByClassName('bola');
+      bola[0].style.backgroundColor=color[0];
+      bola[1].style.backgroundColor=color[1];
+      bola[2].style.backgroundColor=color[2];
+      bola[3].style.backgroundColor=color[3];
+
+
+    //cambiar color de todo el elemento de toda la app (telegram por ejemplo), javascript ataca al css para que el usuario tenga más opciones
+
+    for (var k=0; k<bola.length; k++) {
+      bola[k].style.backgroundColor=color[0];
+    }
+
+
+      var titol=document.getElementsByTagName('h1');
+      titol[0].style.color='white';
+      titol[1].style.color='purple';
+
+      var paragraf=document.getElementsByTagName('p');
+      paragraf[0].style.fontStyle='italic';
+      paragraf[1].style.fontStyle='normal';
+      paragraf[2].style.fontStyle='italic';
+      paragraf[3].style.fontStyle='normal';
+
+
+      var dies=["dilluns", "dimarts","dimecres","dijous","divendres","dissabte","diumenge"];
+      document.write(dies[0]);
+
+
+
+      var color=["red","black","green","blue","purple","navy","yellowgreen"];
+      document.body.style.color=color[5];
+
+      // var font=["arial","helvetica","italic"];
+      // document.body.style.fontFamily=font[2];
+
+      var x=0;
+      while (x<10) {
+        document.write(x+"</br>");
+        x=x+1;
+      }
+
+      for (var i=0; i<10; i++) {
+        document.write(i+"</br>");
+      }
+
+      for (var j=0; j<dies.length; j++) {
+        document.write(dies[j]+"</br>");
+      }
+
+
+
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,175 @@
+<!-- hacer lo mismo pero con video -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>VIDEO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+
+  .title {
+    background-color: #000;
+    width: 650px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+
+  #gran {
+    display: block;
+    width: 650px;
+    margin-bottom: 10px;
+  }
+
+  #petit {
+    display: flex;
+    background: #CCC;
+    width: 650px;
+    height: 180px;
+  }
+
+  #vide{
+  width: 650px;
+  height: 350px;
+  items-align: center;
+  }
+
+  .vi {
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px 15px 15px 0;
+  }
+
+  .vi:hover{
+    transform: scale(0.9);
+    filter: opacity(40%);
+  }
+
+  li {
+    font-size: 14px;
+    font-width: bold;
+    font-family: 'Oswald', sans-serif;
+    width: 150px;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div class="title">
+    <h1>
+      MUSIC.JEN
+    </h1>
+  </div>
+
+  <div id="gran">
+    <video id="vide" autoplay controls>
+    </video>
+  </div>
+
+  <div id="petit">
+    <div>
+      <video class="vi" src="01.mp4">
+      </video>
+        <li>
+          KHINGHT OF THE JAGUAR - DJ ROLANDO
+        </li>
+    </div>
+
+    <div>
+    <video class="vi" src="02.mp4">
+    </video>
+      <li>
+        FALLIN FOR U - PEACHY!
+      </li>
+    </div>
+
+    <div>
+      <video class="vi" src="03.mp4"> </video>
+        <li>
+          MAD ABOUT YOU - HOOVERPHONICS
+        </li>
+    </div>
+
+    <div>
+      <video class="vi" src="04.mp4"> </video>
+        <li>
+          MÉXICO - INSTITUTO MEXICANO DEL SONIDO
+        </li>
+    </div>
+  </div>
+
+<script type="text/javascript">
+
+// document.getElementById('enrere').addEventListener('click', patras);
+// document.getElementById('endavant').addEventListener('click', palante);
+//
+// var num=document.getElementById('num');
+// var i=0;
+//
+var imatgran=document.getElementById('vide');
+var video=document.getElementsByClassName('vi');
+
+
+// function patras (){
+//   if (i==0) {i=video.length-1;}
+//   else { i-- }
+//   num.innerHTML=i;
+//   imatgran.src=video[i].src;
+// }
+//
+// function palante (){
+// // si (if) llegas al final empieza otra vez, si no (else) continua
+//   if (i==video.length-1) {i=0;}
+//   else {i++;}
+//   num.innerHTML=i;
+//   imatgran.src=video[i].src;
+// }
+
+ video[0].addEventListener('click',video0);
+ video[1].addEventListener('click',video1);
+ video[2].addEventListener('click',video2);
+ video[3].addEventListener('click',video3);
+//
+ function video0(){
+ imatgran.src=video[0].src;
+}
+//
+ function video1(){
+ imatgran.src=video[1].src;
+ }
+//
+ function video2(){
+ imatgran.src=video[2].src;
+}
+//
+ function video3(){
+ imatgran.src=video[3].src;
+ }
+
+//contador
+
+
+
+
+
+//para pasar imagenes de una a otra
+
+// como se empieza desde 0, ejemplo imatge0, imatge1, imatge2 i imatge3, son 4 elementos, del 3 tiene que pasar al uno, por eso hay que usar i=imatge.length;
+
+
+</script>
+</body>
+</html>

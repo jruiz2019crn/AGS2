@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Banner 2</title>
+
+  <style>
+
+  body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  #contenidor {
+    width: 80%;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  #gran {
+    width: 100%;
+    padding: 0;
+  }
+
+  #petit {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-top: 147px;
+  }
+
+  #petit img {
+    width: 98%;
+    height: auto;
+    align-items: center;
+  }
+
+  #uno:hover {filter: opacity(70%);}
+  #due:hover {filter: opacity(70%);}
+  #tre:hover {filter: opacity(70%);}
+  #quattro:hover {filter: opacity(70%);}
+
+  ul{
+    text-align: center;
+  }
+
+  li{
+    display: inline-block;
+    font-size: 100px;
+    font-weight: 900;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div id="petit" class="mini">
+
+    <img src="img/01.jpg" class="imatge" id="uno">
+    <img src="img/02.jpg" class="imatge" id="due">
+    <img src="img/03.jpg" class="imatge" id="tre">
+    <img src="img/04.jpg" class="imatge" id="quattro">
+
+  </div>
+
+  <div id="contenidor">
+    <ul>
+      <li id="enrere"> < </li>
+      <li id="num"> </li>
+      <li id="endavant"> > </li>
+    </ul>
+
+    <img src="img/01.jpg" id="imatgran" id="gran"/>
+  </div>
+
+<script type="text/javascript">
+
+document.getElementById('enrere').addEventListener('click', patras);
+document.getElementById('endavant').addEventListener('click', palante);
+
+var num=document.getElementById('num');
+var i=0;
+
+var imatgran=document.getElementById('imatgran');
+var imatge=document.getElementsByClassName('imatge');
+
+
+function patras (){
+  if (i==0) {i=imatge.length-1;}
+  else { i-- }
+  num.innerHTML=i;
+  imatgran.src=imatge[i].src;
+}
+
+function palante (){
+// si (if) llegas al final empieza otra vez, si no (else) continua
+  if (i==imatge.length-1) {i=0;}
+  else {i++;}
+  num.innerHTML=i;
+  imatgran.src=imatge[i].src;
+}
+
+imatge[0].addEventListener('mouseover',imatge0);
+imatge[1].addEventListener('mouseover',imatge1);
+imatge[2].addEventListener('mouseover',imatge2);
+imatge[3].addEventListener('mouseover',imatge3);
+
+function imatge0(){
+imatgran.src=imatge[0].src;
+}
+
+function imatge1(){
+imatgran.src=imatge[1].src;
+}
+
+function imatge2(){
+imatgran.src=imatge[2].src;
+}
+
+function imatge3(){
+imatgran.src=imatge[3].src;
+}
+
+//contador
+
+
+
+
+
+//para pasar imagenes de una a otra
+
+// como se empieza desde 0, ejemplo imatge0, imatge1, imatge2 i imatge3, son 4 elementos, del 3 tiene que pasar al uno, por eso hay que usar i=imatge.length;
+
+
+</script>
+</body>
+</html>
