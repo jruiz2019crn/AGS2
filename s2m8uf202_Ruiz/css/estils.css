@@ -1,129 +1,245 @@
 body {
 background: #fff;
+margin: 0;
+padding: 0;
+font-family: 'Spartan', sans-serif;
 }
 
-.barra1 {
+.fondo {
   background: #000;
-  padding: 0;
-  height: 1249px;
+  height: 1269px;
+  padding-left: 0;
+  margin-top: 0;
+  position: absolute;
 }
 
-.barra1 li{
-  font-size: 14px;
-  font-family: 'Spartan', sans-serif;
+.fondo li {
   color: #fff;
+  margin-left: 0;
+  list-style: none;
+  font-size: 14px;
   line-height: 65px;
+  font-weight: bold;
+  display: inline;
+}
+
+ #marou {
+  font-size: 18px;
+  margin-left: -20px;
+  letter-spacing: 2px;
+ }
+
+.img_portada {
+  position: relative;
+  top: 60px;
+}
+
+.tableta {
+  position: relative;
+  top: 87px;
+}
+
+.img_portada img:hover {
+  filter: none;
+}
+
+img:hover{
+  filter: opacity(70%);
+}
+
+li a:visited {
+  decoration: none;
+  color: #000;
+}
+
+.pastilla_nombres {
+  background: #fff;
+  height: 60px;
+  position: relative;
+  top: 112px;
+  padding-left: 0;
+}
+
+.pastilla_nombres li {
+  color: #000;
+  font-size: 18px;
+  height: 60px;
+  line-height: 65px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tableta_2 {
+  position: relative;
+  top: 132px;
+}
+
+.pastilla_nombres_dos {
+  background: #fff;
+  height: 60px;
+  position: relative;
+  top: 142px;
+  padding-left: 0;
+}
+
+.pastilla_nombres_dos li {
+  color: #000;
+  font-size: 18px;
+  height: 60px;
+  line-height: 65px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#tenguang80 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.pastilla_cookies {
+  background: #fff;
+  height: 30px;
+  position: relative;
+  top: 142px;
+  padding-left: 0;
+}
+
+ .pastilla_cookies li {
+  color: #000;
+  font-size: 12px;
+  line-height: 35px;
+  padding: 0;
+  margin: 0;
   font-weight: bold;
 }
 
-#brand{
-  font-size: 24px;
+.redes {
+  position: relative;
+  top: 130px;
+  height: 40px;
 }
 
-/* apaño */
-
-#portada {
-  background: #fff;
-  width: 960px;
-  height: 306px;
-  margin-top: 65px;
+.redes img {
+margin: 5px 25px;
+padding: 0;
 }
 
-.chocsup, .chocinf {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+/* pág producto */
 
-.chocsup:hover  {
-  transition: .5s;
-  filter: opacity(50%);
-}
-
-.chocinf:hover  {
-  transition: .5s;
-  filter: opacity(50%);
-}
-
-.title_sup, .title_inf {
-  height: 60px;
-  background-color: #fff;
-}
-
-.title_sup li, .title_inf li {
-  font-size: 18px;
-  font-family: 'Spartan', sans-serif;
-  color: #000;
-  background: ;
-  height: 60px;
-  padding: 0;
-}
-
-a:visited{
-  color: #000;
-}
-
-#title_9 {
-  line-height: 25px;
-  height: 60px;
-}
-
-
-.peu {
-  height: 30px;
-  background: #fff;
-}
-
-.peu li {
-  font-size: 12px;
-  font-family: 'Spartan', sans-serif;
-  color: #000;
-  line-height: 35px;
-}
-
-.logos {
-  height: 60px;
-  display:block;
-  line-height: 20px;
-  background: #000;
-}
-
-#face, #linkedin, #insta {
-  width: 30px;
-  height: 30px;
-  background-size: 100%;
-  margin-top: 15px;
-
-}
-
-/* pág 2 */
-
-.fondo {
-  font-size: 14px;
-  font-family: 'Spartan', sans-serif;
-  line-height: 65px;
-  background-color: #000;
+#marou a:visited {
   color: #fff;
-
 }
 
-.presentacion {
-  margin-top: 60px;
-  height: 500px;
-  background: #000;
+a:link {
+  text-decoration: none;
 }
 
-.presentacioninterior {
-  margin-top: 60px;
-  height: 100px;
-  background: black;
-}
-
-.cacao:hover {
-  filter: brightness(110%);
+.pastilla_sup {
+  background: #fff;
+  height: 60px;
+  position: relative;
+  top: 60px;
 }
 
 .cacao {
-  margin: 30px 0 30px 0;
+  margin-top: 90px;
+}
+
+#lambong {
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  top: 90px;
+  font-weight: bold;
+}
+
+#lambong p {
+  font-size: 14px;
+  font-family: 'Spartan', sans-serif;
+  color: #fff;
+  font-weight: lighter;
+  position: relative;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.pastilla_frase {
+  background: #fff;
+  height: 60px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+}
+
+.pastilla_frase h1 {
+  font-size: 18px;
+  font-family: 'Spartan', sans-serif;
+  color: #000;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.title_tableta {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.frase {
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.choco {
+  position: absolute;
+  top: 720px;
+}
+
+.choco img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+ .pastilla_cookies_2 {
+   background: #fff;
+   height: 30px;
+   position: relative;
+   top: 0px;
+   padding-left: 0;
+ }
+
+ .pastilla_cookies_2 li {
+  color: #000;
+  font-size: 12px;
+  line-height: 35px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.redes_2 {
+  position: relative;
+
+  height: 40px;
+}
+
+.redes_2 img {
+margin: 5px 25px;
+padding: 0;
+}
+
+/* .cacao {
+  background: green;
+
+}
+
+ .cacao img:hover {
+  filter: brightness(110%);
 }
 
 #cacaoimg {
@@ -134,15 +250,15 @@ a:visited{
   filter: brightness(110%);
 }
 
-#title_1 {
+  #title_1 {
   font-size: 24px;
   font-family: 'Spartan', sans-serif;
+  font-weight: bold;
   color: #fff;
   margin-top: 30px;
 }
 
 .texto {
-  font-size: 18px;
   line-height: 24px;
   color: #fff;
   font-size: 14px;
@@ -153,13 +269,39 @@ a:visited{
   color: #fff;
 }
 
-.pastilla {
-  height: 30px;
-  background: #000;
-}
-
 .frase {
-  background-color: #fff;
   height: 60px;
-
+  padding: 0;
+  margin: 0;
 }
+
+.frase li {
+  font-size: 25px;
+  font-family: 'Spartan', sans-serif;
+  color: #000;
+  font-weight: bold;
+  line-height: 65px;
+}
+
+.pastilla_frase {
+  background-color: #000;
+  height: 90px;
+  list-style: none;
+  margin: 0;
+}
+
+#promo_choc {
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+#frase_marou {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 72px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+} */
