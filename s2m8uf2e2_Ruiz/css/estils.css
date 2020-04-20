@@ -1,0 +1,38 @@
+body{
+background: linear-gradient(70deg, ivory 50%, pink 50%);
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 2em;
+  font-family: Arial Sans-Serif;
+  font-weight: bold;
+}
+
+h1::before {
+
+}
+
+.cap{
+  height: 589px;
+}
+
+#cotxe {
+  height: 200px;
+}
+
+#cotxe:hover {
+  filter: invert(100%);
+  transition: 0.3s;
+  transform: rotate(360deg) scale(1.03);
+  -webkit-transform: rotate(360deg);
+}
+
+li {
+  height: 40px;
+  background: #fff;
+  display: inline-block;
+  margin: 0 0 20px 0;
+  font-family: Helvetica;
+  font-size: 1em;
+}
